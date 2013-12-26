@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="DTNperf3_vION" root=".">
+      <df name=".settings">
+      </df>
+      <df name="Debug">
+        <df name="src">
+          <df name="dtnperf_modes">
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="dtnperf_modes">
+          <in>dtnperf_client.c</in>
+          <in>dtnperf_client.h</in>
+          <in>dtnperf_monitor.c</in>
+          <in>dtnperf_monitor.h</in>
+          <in>dtnperf_router.c</in>
+          <in>dtnperf_router.h</in>
+          <in>dtnperf_server.c</in>
+          <in>dtnperf_server.h</in>
+        </df>
+        <in>bundle_tools.c</in>
+        <in>bundle_tools.h</in>
+        <in>csv_tools.c</in>
+        <in>csv_tools.h</in>
+        <in>definitions.h</in>
+        <in>dtnperf_main.c</in>
+        <in>dtnperf_types.h</in>
+        <in>file_transfer_tools.c</in>
+        <in>file_transfer_tools.h</in>
+        <in>includes.h</in>
+        <in>utils.c</in>
+        <in>utils.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Debug/makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Debug/makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>Debug</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath>dtnperf_vION</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="src/bundle_tools.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/csv_tools.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/dtnperf_main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/dtnperf_modes/dtnperf_client.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/dtnperf_modes/dtnperf_monitor.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/dtnperf_modes/dtnperf_router.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/dtnperf_modes/dtnperf_server.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/file_transfer_tools.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/utils.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
